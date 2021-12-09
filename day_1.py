@@ -28,7 +28,6 @@ def improved(in_list):
     solve = lambda data, diff: sum(b > a for a, b in zip(data, data[diff:]))
 
 
-
 if __name__ == '__main__':
     int_list = []
     with open('input1.txt') as f:
